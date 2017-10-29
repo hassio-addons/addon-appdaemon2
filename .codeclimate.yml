@@ -10,4 +10,6 @@ ratings:
   paths:
     - "**.sh"
     - "**.md"
-exclude_paths: []
+exclude_paths: [
+  "appdaemon/rootfs/root/appdaemon/dashboards/Hello.dash"
+]
