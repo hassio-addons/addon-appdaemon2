@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 ### Added
 
 - Added `webui` link to add-on configuration #2
+- Added commtype switch #1
 
 ## [v0.1.0] (2017-10-29)
 

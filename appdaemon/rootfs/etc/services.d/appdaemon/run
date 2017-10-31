@@ -6,6 +6,7 @@
 # shellcheck disable=SC1091
 source /usr/lib/hassio-addons/base.sh
 
+declare commtype
 declare log_level
 
 # Find the matching Tor log level
@@ -27,5 +28,7 @@ case "$(hass.string.lower "$(hass.config.get 'log_level')")" in
         ;;
 esac
 
+commtype=$(hass.string.upper "$(hass.config.get 'commtype')")
+
 # Run the AppDaemon
-appdaemon -c /config/appdaemon -D "${log_level}"
+appdaemon -c /config/appdaemon -D "${log_level}" --commtype="${commtype}"

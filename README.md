@@ -95,6 +95,20 @@ you are troubleshooting.
 
 These log level also affects the log levels of the AppDaemon.
 
+### Option: `commtype`
+
+The add-on (and thus AppDaemon) support two different methods to communicate
+with your Home Assistant instance. The `commtype` option allows you to
+control which method the AppDaemon will be using. The following methods can
+be used:
+
+- `websockets` this is the current default an prefered method.
+- `sse` is an older method that uses HTTP streaming.
+
+Some people reported having issues with `websockets` when using DuckDNS and
+Let's Encrypt, in that case setting the `commtype` to `sse` might be an
+option.
+
 ## AppDaemon and HADashboard configuration
 
 This add-on does not configure the AppDaemon or HADashboard for you.

@@ -19,10 +19,12 @@
     "ssl:rw"
   ],
   "options": {
-    "log_level": "info"
+    "log_level": "info",
+    "commtype": "websockets"
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)"
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "commtype": "match(^(websockets|sse)$)"
   },
   "environment": {
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
