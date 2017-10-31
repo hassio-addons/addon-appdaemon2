@@ -7,7 +7,9 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 
 ## Unreleased
 
-No are unreleased changes yet.
+### Added
+
+- Added `webui` link to add-on configuration #2
 
 ## [v0.1.0] (2017-10-29)
 
