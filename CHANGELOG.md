@@ -26,6 +26,6 @@ No unreleased changes yet.
 
 [keep-a-changelog]: http://keepachangelog.com/en/1.0.0/
 [semantic-versioning]: http://semver.org/spec/v2.0.0.html
-[v0.1.0-v0.2.0]: https://github.com/hassio-addons/addon-base/compare/v0.1.0...v0.2.0
+[v0.1.0-v0.2.0]: https://github.com/hassio-addons/addon-appdaemon/compare/v0.1.0...v0.2.0
 [v0.1.0]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.1.0
 [v0.2.0]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.2.0

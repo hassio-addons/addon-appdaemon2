@@ -69,7 +69,8 @@ Example add-on configuration:
 
 ```json
 {
-  "log_level": "info"
+  "log_level": "info",
+  "commtype": "websockets"
 }
 ```
 
@@ -97,7 +98,7 @@ These log level also affects the log levels of the AppDaemon.
 
 ### Option: `commtype`
 
-The add-on (and thus AppDaemon) support two different methods to communicate
+The add-on (and thus AppDaemon) supports two different methods to communicate
 with your Home Assistant instance. The `commtype` option allows you to
 control which method the AppDaemon will be using. The following methods can
 be used:
