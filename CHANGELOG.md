@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 
 ## Unreleased
 
+No unreleased changes yet.
+
+## [v0.2.0] (2017-10-31)
+
+[Full Changelog][v0.1.0-v0.2.0]
+
 ### Added
 
 - Added `webui` link to add-on configuration #2
@@ -20,4 +26,6 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 
 [keep-a-changelog]: http://keepachangelog.com/en/1.0.0/
 [semantic-versioning]: http://semver.org/spec/v2.0.0.html
+[v0.1.0-v0.2.0]: https://github.com/hassio-addons/addon-base/compare/v0.1.0...v0.2.0
 [v0.1.0]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.1.0
+[v0.2.0]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.2.0
