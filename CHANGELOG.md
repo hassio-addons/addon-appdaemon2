@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 
 ## Unreleased
 
+### Changed
+
+- Updated AppDaemon to v2.1.12
+
 ### Removed
 
 - Removes `repository.json` to prevent user to install wrong repo
