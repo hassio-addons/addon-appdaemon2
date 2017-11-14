@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 
 ## Unreleased
 
+No unreleased changes yet.
+
+## [v0.2.2] (2017-11-14)
+
+[Full Changelog][v0.2.1-v0.2.2]
+
 ### Changed
 
 - Updated AppDaemon to v2.1.12
@@ -14,6 +20,7 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 ### Removed
 
 - Removes `repository.json` to prevent user to install wrong repo
+- Removes Gratipay from README, since it is EOL
 
 ## [v0.2.1] (2017-11-01)
 
@@ -44,4 +51,6 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 [v0.1.0]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.1.0
 [v0.2.0-v0.2.1]: https://github.com/hassio-addons/addon-appdaemon/compare/v0.2.0...v0.2.1
 [v0.2.0]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.2.0
+[v0.2.1-v0.2.2]: https://github.com/hassio-addons/addon-appdaemon/compare/v0.2.1...v0.2.2
 [v0.2.1]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.2.1
+[v0.2.2]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.2.2
