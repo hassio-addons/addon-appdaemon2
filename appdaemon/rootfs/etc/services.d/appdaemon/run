@@ -31,4 +31,4 @@ esac
 commtype=$(hass.string.upper "$(hass.config.get 'commtype')")
 
 # Run the AppDaemon
-appdaemon -c /config/appdaemon -D "${log_level}" --commtype="${commtype}"
+exec appdaemon -c /config/appdaemon -D "${log_level}" --commtype="${commtype}"
