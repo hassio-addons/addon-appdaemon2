@@ -9,6 +9,26 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 
 No unreleased changes yet.
 
+## [v0.4.0] (2018-01-07)
+
+[Full Changelog][v0.3.0-v0.4.0]
+
+### Added
+
+- Adds support for installing custom system and Python packages
+
+### Changed
+
+- Pass local CircleCI Docker socket into the build container
+- Use image tagged as test as a cache resource
+- Prevents possible future Docker login issue
+- Upgrades add-on base image to v1.3.1
+- Updated maintenance year, it is 2018
+
+### Removed
+
+- Removes Microbadger notification hooks
+
 ## [v0.3.0] (2017-12-03)
 
 [Full Changelog][v0.2.2-v0.3.0]
@@ -66,4 +86,6 @@ No unreleased changes yet.
 [v0.2.1]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.2.1
 [v0.2.2-v0.3.0]: https://github.com/hassio-addons/addon-appdaemon/compare/v0.2.2...v0.3.0
 [v0.2.2]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.2.2
+[v0.3.0-v0.4.0]: https://github.com/hassio-addons/addon-appdaemon/compare/v0.3.0...v0.4.0
 [v0.3.0]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.3.0
+[v0.4.0]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.4.0
