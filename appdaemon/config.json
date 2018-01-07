@@ -20,13 +20,18 @@
   ],
   "options": {
     "log_level": "info",
-    "commtype": "websockets"
+    "commtype": "websockets",
+    "system_packages": [],
+    "python_packages": []
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
-    "commtype": "match(^(websockets|sse)$)"
+    "commtype": "match(^(websockets|sse)$)",
+    "system_packages": ["str"],
+    "python_packages": ["str"]
   },
   "environment": {
-    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
+    "LOG_FORMAT": "{LEVEL}: {MESSAGE}",
+    "SUPERVISOR_VERSION": ">=0.77.0"
   }
 }

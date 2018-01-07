@@ -109,6 +109,22 @@ Some people reported having issues with `websockets` when using DuckDNS and
 Let's Encrypt, in that case setting the `commtype` to `sse` might be an
 option.
 
+### Option: `system_packages`
+
+Allows you to specify additional [Alpine packages][alpine-packages] to be
+installed to your AppDaemon setup (e.g., `g++`. `make`, `ffmpeg`).
+
+**Note**: _Adding many packages will result in a longer start-up time
+for the add-on._
+
+### Option: `python_packages`
+
+Allows you to specify additional [Python packages][python-packages] to be
+installed to your AppDaemon setup (e.g., `PyMySQL`. `Requests`, `Pillow`).
+
+**Note**: _Adding many packages will result in a longer start-up time
+for the add-on._
+
 ## AppDaemon and HADashboard configuration
 
 This add-on does not configure the AppDaemon or HADashboard for you.
@@ -203,6 +219,7 @@ SOFTWARE.
 [aarch64-microbadger]: https://microbadger.com/images/hassioaddons/appdaemon-aarch64
 [aarch64-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/appdaemon-aarch64.svg
 [aarch64-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/appdaemon-aarch64.svg
+[alpine-packages]: https://pkgs.alpinelinux.org/packages
 [amd64-arch-shield]: https://img.shields.io/badge/architecture-amd64-blue.svg
 [amd64-dockerhub]: https://hub.docker.com/r/hassioaddons/appdaemon-amd64
 [amd64-layers-shield]: https://images.microbadger.com/badges/image/hassioaddons/appdaemon-amd64.svg
@@ -247,9 +264,9 @@ SOFTWARE.
 [paypal-shield]: https://img.shields.io/badge/donate-paypal-blue.svg
 [paypal]: https://www.paypal.me/FranckNijhof
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-development-yellowgreen.svg
+[python-packages]: https://pypi.org/
 [reddit]: https://reddit.com/r/homeassistant
 [releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-appdaemon.svg
 [releases]: https://github.com/hassio-addons/addon-appdaemon/releases
 [repository]: https://github.com/hassio-addons/repository
 [semver]: http://semver.org/spec/v2.0.0.htm
-
