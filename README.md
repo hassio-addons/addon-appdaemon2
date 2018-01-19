@@ -138,7 +138,7 @@ directory.
 For more information about configuring AppDaemon, please refer to the
 extensive documentation they offer:
 
-<http://appdaemon.readthedocs.io/en/latest/>
+<http://appdaemon.readthedocs.io/en/stable/>
 
 ## Changelog & Releases
 
