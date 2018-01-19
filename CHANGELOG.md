@@ -1,4 +1,4 @@
-# Community Hass.io Add-ons: AppDaemon
+# Community Hass.io Add-ons: AppDaemon2
 
 All notable changes to this add-on will be documented in this file.
 
@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 ## Unreleased
 
 No unreleased changes yet.
+
+## [v1.0.0] (2018-01-19)
+
+[Full Changelog][v0.4.0-v1.0.0]
+
+### Changed
+
+- Add-on project status: Production ready
+- Upgrades add-on base image to v1.3.2
+- Changed add-on branding from AppDaemon to AppDaemon2 (3 is on its way)
 
 ## [v0.4.0] (2018-01-07)
 
@@ -88,4 +98,6 @@ No unreleased changes yet.
 [v0.2.2]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.2.2
 [v0.3.0-v0.4.0]: https://github.com/hassio-addons/addon-appdaemon/compare/v0.3.0...v0.4.0
 [v0.3.0]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.3.0
+[v0.4.0-v1.0.0]: https://github.com/hassio-addons/addon-appdaemon/compare/v0.4.0...v1.0.0
 [v0.4.0]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.4.0
+[v1.0.0]: https://github.com/hassio-addons/addon-appdaemon/tree/v1.0.0
