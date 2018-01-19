@@ -28,13 +28,13 @@ ARG BUILD_VERSION
 
 # Labels
 LABEL \
-    io.hass.name="AppDaemon" \
-    io.hass.description="Python Apps and HADashboard for Home Assistant" \
+    io.hass.name="AppDaemon2" \
+    io.hass.description="Python Apps and HADashboard using AppDaemon 2.x for Home Assistant" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
     maintainer="Franck Nijhof <frenck@addons.community>" \
-    org.label-schema.description="Python Apps and HADashboard for Home Assistant" \
+    org.label-schema.description="Python Apps and HADashboard using AppDaemon 2.x for Home Assistant" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="AppDaemon" \
     org.label-schema.schema-version="1.0" \

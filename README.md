@@ -18,6 +18,8 @@
 
 Python Apps and HADashboard for Home Assistant
 
+Note: _This addon runs AppDaemon 2.x_
+
 ## About
 
 AppDaemon is a loosely coupled, multithreaded, sandboxed python execution
