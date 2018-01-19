@@ -1,4 +1,4 @@
-# Community Hass.io Add-ons: AppDaemon
+# Community Hass.io Add-ons: AppDaemon2
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
