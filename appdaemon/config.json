@@ -11,7 +11,8 @@
   "homeassistant_api": true,
   "host_network": false,
   "ports": {
-    "5050/tcp": 5050
+    "5050/tcp": 5050,
+    "5000/tcp": 5000
   },
   "map": [
     "config:rw",

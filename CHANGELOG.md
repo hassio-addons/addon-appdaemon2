@@ -9,6 +9,23 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 
 No unreleased changes yet.
 
+## [v1.1.0] (2018-03-01)
+
+[Full Changelog][v1.0.0-v1.1.0]
+
+## Added
+
+- Enable the REST API port for AppDaemon #9 (@vork)
+- Adds add-on icon and logo
+- Warns the user when not using the Hass.io Proxy address
+- Adds support for auto configuring Hass.io API security key
+
+## Changed
+
+- Updates base image to v1.3.3
+- Sets HA URL to Hass.io proxy address by default
+- Updates AppDaemon docs URL in README
+
 ## [v1.0.0] (2018-01-19)
 
 [Full Changelog][v0.4.0-v1.0.0]
@@ -100,4 +117,6 @@ No unreleased changes yet.
 [v0.3.0]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.3.0
 [v0.4.0-v1.0.0]: https://github.com/hassio-addons/addon-appdaemon/compare/v0.4.0...v1.0.0
 [v0.4.0]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.4.0
+[v1.0.0-v1.1.0]: https://github.com/hassio-addons/addon-appdaemon/compare/v1.0.0...v1.1.0
 [v1.0.0]: https://github.com/hassio-addons/addon-appdaemon/tree/v1.0.0
+[v1.1.0]: https://github.com/hassio-addons/addon-appdaemon/tree/v1.1.0

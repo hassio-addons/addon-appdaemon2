@@ -1,4 +1,4 @@
-ARG BUILD_FROM=hassioaddons/base-amd64:1.3.2
+ARG BUILD_FROM=hassioaddons/base-amd64:1.3.3
 FROM ${BUILD_FROM}
 
 # Setup base
@@ -14,6 +14,7 @@ RUN \
     \
     && pip3 install \
         appdaemon==2.1.12 \
+        yq \
     \
     && apk del --purge .build-dependencies
 
