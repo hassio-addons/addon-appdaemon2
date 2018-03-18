@@ -18,7 +18,8 @@
 
 Python Apps and HADashboard for Home Assistant
 
-Note: _This addon runs AppDaemon 2.x_
+Note: _This addon runs AppDaemon 2.x, which is deprecated. We strongly suggest
+installing or upgrading to the AppDaemon3 add-on._
 
 ## About
 
@@ -265,7 +266,7 @@ SOFTWARE.
 [patreon]: https://www.patreon.com/frenck
 [paypal-shield]: https://img.shields.io/badge/donate-paypal-blue.svg
 [paypal]: https://www.paypal.me/FranckNijhof
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
+[project-stage-shield]: https://img.shields.io/badge/Project%20Stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg
 [python-packages]: https://pypi.org/
 [reddit]: https://reddit.com/r/homeassistant
 [releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-appdaemon.svg
